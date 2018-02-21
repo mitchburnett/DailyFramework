@@ -11,7 +11,7 @@ use a package manager like brew. To get brew you can run the following command
 in the terminal
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```.
+```
 Afterwards node and mongo are easily installed with
 ```
 brew install node
@@ -19,7 +19,8 @@ brew install node
 and
 ```
 brew install mongodb
-```.
+```
+.
 
 
 
