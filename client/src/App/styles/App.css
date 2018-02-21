@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+i {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+    transition: background-color 1s;
+    font-size: 24px;
+    font-family: 'Alef', sans-serif;
+    padding: 10px;
+    background-color: white;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 23, 31, 0.4);
+    cursor: pointer;
+}
+
