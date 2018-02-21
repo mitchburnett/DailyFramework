@@ -2,9 +2,9 @@
 
 ## Setting up your local test environment
 
-The following is a tutorial to set up your own local test enviornment to
+The following is a tutorial to set up your own local test environment to
 develop and test DailyFramework code. These instructions are assuming an
- enviornment, can be easily abstracted to a unix-like enviornment.
+ environment, can be easily abstracted to a unix-like environment.
 
 1. Install the node js server runtime and mongodb. My preferred method is to
 use a package manager like brew. To get brew you can run the following command
@@ -35,7 +35,7 @@ node run build
 ```
 This will compile the web application and nicely place it the app in its own
 directory called 'build.' Other instructions for creating a optimized server
-deployable build is also presetend by default.
+deployable build is also presented by default.
 
 Note: You will need the XCode command line tools to compile and build the
 application.
